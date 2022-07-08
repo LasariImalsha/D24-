@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewDetailsFormController">
+   <children>
+      <AnchorPane fx:id="addContext" prefHeight="1082.0" prefWidth="1439.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="60.0" layoutY="57.0" text="View Details">
+               <font>
+                  <Font name="Montserrat Black" size="30.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tblDetail" layoutX="58.0" layoutY="139.0" prefHeight="740.0" prefWidth="1284.0" stylesheets="@../assets/style/TableForm.css">
+               <columns>
+                  <TableColumn fx:id="coldId" prefWidth="209.0" text="Detail ID" />
+                  <TableColumn fx:id="colSId" prefWidth="323.0" text="Student Detail" />
+                  <TableColumn fx:id="colPId" prefWidth="342.0" text="Room Detail" />
+                  <TableColumn fx:id="colDate" prefWidth="402.0" text="Date Of Registered" />
+               </columns>
+            </TableView>
+            <Label layoutX="757.0" layoutY="60.0" text="Date : ">
+               <font>
+                  <Font name="Montserrat SemiBold" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDate" layoutX="839.0" layoutY="62.0" text="YYYY : MM : DD">
+               <font>
+                  <Font name="Montserrat SemiBold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="1089.0" layoutY="60.0" text="Time : ">
+               <font>
+                  <Font name="Montserrat SemiBold" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblTime" layoutX="1177.0" layoutY="60.0" text="HH : MM : SS">
+               <font>
+                  <Font name="Montserrat SemiBold" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterFormController">
+   <children>
+      <AnchorPane fx:id="addContext" prefHeight="1082.0" prefWidth="1439.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="58.0" layoutY="60.0" text="Student Registration">
+               <font>
+                  <Font name="Montserrat Black" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="370.0" layoutY="264.0" text="Name">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="1063.0" layoutY="303.0" prefHeight="50.0" prefWidth="270.0" style="-fx-background-color: white;" styleClass="textPane" stylesheets="@../assets/style/DetailForm.css">
+               <children>
+                  <TextField fx:id="txtNIC" layoutX="14.0" layoutY="7.0" prefHeight="37.0" prefWidth="256.0" styleClass="textField" stylesheets="@../assets/style/DetailForm.css" />
+               </children>
+            </AnchorPane>
+            <Label layoutX="58.0" layoutY="386.0" text="Address">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="1070.0" layoutY="264.0" text="NIC">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="787.0" layoutY="264.0" text="Date Of Birth">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="959.0" layoutY="386.0" text="Email">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="509.0" layoutY="386.0" text="Phone No">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="60.0" layoutY="588.0" text="Room ID">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="370.0" layoutY="303.0" prefHeight="50.0" prefWidth="373.0" style="-fx-background-color: white;" styleClass="textPane" stylesheets="@../assets/style/DetailForm.css">
+               <children>
+                  <TextField fx:id="txtStuName" layoutX="3.0" layoutY="7.0" prefHeight="37.0" prefWidth="373.0" styleClass="textField" stylesheets="@../assets/style/DetailForm.css" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="787.0" layoutY="303.0" prefHeight="50.0" prefWidth="224.0" style="-fx-background-color: white;" styleClass="textPane" stylesheets="@../assets/style/DetailForm.css">
+               <children>
+                  <TextField fx:id="txtDOB" layoutX="3.0" layoutY="7.0" prefHeight="37.0" prefWidth="214.0" styleClass="textField" stylesheets="@../assets/style/DetailForm.css" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="959.0" layoutY="426.0" prefHeight="50.0" prefWidth="373.0" style="-fx-background-color: white;" styleClass="textPane" stylesheets="@../assets/style/DetailForm.css">
+               <children>
+                  <TextField fx:id="txtEmail" layoutX="3.0" layoutY="7.0" prefHeight="37.0" prefWidth="373.0" styleClass="textField" stylesheets="@../assets/style/DetailForm.css" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="509.0" layoutY="426.0" prefHeight="50.0" prefWidth="373.0" style="-fx-background-color: white;" styleClass="textPane" stylesheets="@../assets/style/DetailForm.css">
+               <children>
+                  <TextField fx:id="txtPhoneNo" layoutX="3.0" layoutY="7.0" prefHeight="37.0" prefWidth="373.0" styleClass="textField" stylesheets="@../assets/style/DetailForm.css" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="58.0" layoutY="426.0" prefHeight="50.0" prefWidth="373.0" style="-fx-background-color: white;" styleClass="textPane" stylesheets="@../assets/style/DetailForm.css">
+               <children>
+                  <TextField fx:id="txtAddress" layoutX="3.0" layoutY="7.0" prefHeight="37.0" prefWidth="373.0" styleClass="textField" stylesheets="@../assets/style/DetailForm.css" />
+               </children>
+            </AnchorPane>
+            <Label layoutX="337.0" layoutY="588.0" text="Room">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="791.0" layoutY="588.0" text="Duration">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="1100.0" layoutY="588.0" text="Fee (LKR)">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="337.0" layoutY="625.0" prefHeight="50.0" prefWidth="373.0" style="-fx-background-color: white;" styleClass="textPane" stylesheets="@../assets/style/DetailForm.css">
+               <children>
+                  <TextField fx:id="txtProName" editable="false" layoutX="3.0" layoutY="7.0" prefHeight="37.0" prefWidth="373.0" styleClass="textField" stylesheets="@../assets/style/DetailForm.css" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="789.0" layoutY="625.0" prefHeight="50.0" prefWidth="232.0" style="-fx-background-color: white;" styleClass="textPane" stylesheets="@../assets/style/DetailForm.css">
+               <children>
+                  <TextField fx:id="txtDuration" editable="false" layoutX="3.0" layoutY="7.0" prefHeight="37.0" prefWidth="232.0" styleClass="textField" stylesheets="@../assets/style/DetailForm.css" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1100.0" layoutY="625.0" prefHeight="50.0" prefWidth="232.0" style="-fx-background-color: white;" styleClass="textPane" stylesheets="@../assets/style/DetailForm.css">
+               <children>
+                  <TextField fx:id="txtFee" editable="false" layoutX="3.0" layoutY="7.0" prefHeight="37.0" prefWidth="232.0" styleClass="textField" stylesheets="@../assets/style/DetailForm.css" />
+               </children>
+            </AnchorPane>
+            <JFXButton layoutX="1041.0" layoutY="772.0" onAction="#registerStudentOnAction" prefHeight="50.0" prefWidth="284.0" style="-fx-background-color: #06d6a0; -fx-background-radius: 50;" text="Save">
+               <font>
+                  <Font name="Montserrat Medium" size="25.0" />
+               </font>
+            </JFXButton>
+            <JFXComboBox fx:id="cmbId" layoutX="58.0" layoutY="625.0" prefHeight="50.0" prefWidth="224.0" />
+            <AnchorPane layoutX="58.0" layoutY="303.0" prefHeight="50.0" prefWidth="270.0" style="-fx-background-color: white;" styleClass="textPane" stylesheets="@../assets/style/DetailForm.css">
+               <children>
+                  <TextField fx:id="txtStuId" layoutX="14.0" layoutY="7.0" onAction="#searchStudentOnAction" prefHeight="37.0" prefWidth="256.0" styleClass="textField" stylesheets="@../assets/style/DetailForm.css" />
+               </children>
+            </AnchorPane>
+            <Label layoutX="65.0" layoutY="264.0" text="Student ID">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="757.0" layoutY="60.0" text="Date : ">
+               <font>
+                  <Font name="Montserrat SemiBold" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDate" layoutX="839.0" layoutY="62.0" text="YYYY : MM : DD">
+               <font>
+                  <Font name="Montserrat SemiBold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="1089.0" layoutY="60.0" text="Time : ">
+               <font>
+                  <Font name="Montserrat SemiBold" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblTime" layoutX="1177.0" layoutY="60.0" text="HH : MM : SS">
+               <font>
+                  <Font name="Montserrat SemiBold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="162.0" text="Registration Id : ">
+               <font>
+                  <Font name="Montserrat SemiBold" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblDetailId" layoutX="282.0" layoutY="162.0" text="RegisterId">
+               <font>
+                  <Font name="Montserrat SemiBold" size="25.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
